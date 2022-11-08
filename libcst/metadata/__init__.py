@@ -50,6 +50,7 @@ from libcst.metadata.scope_provider import (
 from libcst.metadata.span_provider import ByteSpanPositionProvider, CodeSpan
 from libcst.metadata.type_inference_provider import TypeInferenceProvider
 from libcst.metadata.wrapper import MetadataWrapper
+from libcst.metadata.accessor_provider import AccessorProvider
 
 __all__ = [
     "CodePosition",
@@ -86,6 +87,7 @@ __all__ = [
     "Accesses",
     "TypeInferenceProvider",
     "FullRepoManager",
+    "AccessorProvider",
     # Experimental APIs:
     "ExperimentalReentrantCodegenProvider",
     "CodegenPartial",
